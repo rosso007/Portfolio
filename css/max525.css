@@ -1,0 +1,171 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1 {
+    font-family: 'Lato', sans-serif; font-weight: 100;
+    color: #666756;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-family: 'Lato', sans-serif; font-weight: 400;
+    color: #666756;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+h3 {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 30px;
+    font-family: 'Lato', sans-serif; font-weight: 400;
+    color: #BCBBBB;
+    margin-bottom: 10px;
+    padding-left: 5px;
+
+}
+h4 {
+	text-align: center;
+    font-family: 'Lato', sans-serif; font-weight: 400;
+    color: #666756;
+    min-height: 75px;
+    font-size: 26px;
+    margin-bottom:auto;
+    margin-top:auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+}
+p {
+	text-align: center;
+    font-family: 'Lato', sans-serif; font-weight: 400;
+	font-size: 16px;
+    color: #666756;
+    margin-top: 5px;
+
+}
+a {
+	text-decoration: none;
+}
+img, embed, object, video {
+	max-width: 100%;
+}
+img:last-of-type { margin-right: 0;}
+nav a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+.line{
+	height: 4px;
+	background-color: #BCBBBB;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.logo{
+	padding-top: 20%;
+	padding-bottom: 2%;
+}
+.row{
+	width: 100%;
+	display: flex; flex-wrap: wrap;
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+}
+.app-name{
+	width: 60%;
+}
+.app-img {
+	max-height: 69px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.image-appify {
+	Order: 0;
+}
+.image-sunflower {
+	Order: 3;
+}
+.image-bokeh {
+	Order: 6;
+}
+.name-appify {
+	Order: 1;
+}
+.name-sunflower {
+	Order: 4;
+}
+.name-bokeh {
+	Order: 7;
+}
+.link-appify {
+	width: 100%;
+	Order: 2;
+}
+.link-sunflower {
+	width: 100%;
+	Order: 5;
+}
+.link-bokeh {
+	width: 100%;
+	Order: 8;
+}
+.col-1{
+	width: 8.33%;
+
+}
+
+.col-2{
+	width: 16.66%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 41.66%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33%;
+}
+
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+
