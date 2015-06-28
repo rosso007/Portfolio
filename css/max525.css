@@ -1,171 +1,187 @@
-* {
+body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 h1 {
-    font-family: 'Lato', sans-serif; font-weight: 100;
-    color: #666756;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
+	font: 100 36px 'Lato', sans-serif;
+	color: #666756;
+	margin: 0;
+	text-align: center;
+/* required a seperate line for font-weight: bold; as this would not work in shorthand line above */
+	font-weight: bold;
 }
+
 h2 {
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    color: #666756;
-    margin-top: 0px;
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 0px;
+	font: 400 18px 'Lato', sans-serif;
+	color: #666756;
+	margin: 0;
+	text-align: center;
 }
+
 h3 {
-	margin-top: 0px;
+	font: 400 30px 'Lato', sans-serif;
+	margin: 0;
 	text-align: center;
-	font-size: 30px;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    color: #BCBBBB;
-    margin-bottom: 10px;
-    padding-left: 5px;
-
+	color: #bcbbbb;
 }
+
 h4 {
+	font: 400 26px 'Lato', sans-serif;
+	margin: auto;
 	text-align: center;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    color: #666756;
-    min-height: 75px;
-    font-size: 26px;
-    margin-bottom:auto;
-    margin-top:auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 8%;
+	color: #666756;
+	min-height: 75px;
+	padding: 8% 0 0 0;
 }
-p {
-	text-align: center;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-	font-size: 16px;
-    color: #666756;
-    margin-top: 5px;
 
+p {
+	font: 400 16px 'Lato', sans-serif;
+	text-align: center;
+	color: #666756;
+	margin: 5px 0 0 0;
 }
+
 a {
 	text-decoration: none;
 }
+
 img, embed, object, video {
 	max-width: 100%;
 }
-img:last-of-type { margin-right: 0;}
+
+img:last-of-type {
+	margin-right: 0;
+}
+
 nav a, button {
 	min-width: 48px;
 	min-height: 48px;
 }
-.line{
+
+.line {
 	height: 4px;
-	background-color: #BCBBBB;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	background-color: #bcbbbb;
+	margin: 5px 0;
 }
-.logo{
-	padding-top: 20%;
-	padding-bottom: 2%;
+
+.logo {
+	padding: 20% 0 2% 0;
 }
-.row{
+
+.row {
 	width: 100%;
-	display: flex; flex-wrap: wrap;
-	margin-left: auto;
-    margin-right: auto;
-    max-width: 360px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 360px;
 }
-.app-name{
-	width: 60%;
+
+.app-name {
+	width: 55%;
 }
+
 .app-img {
-	max-height: 69px;
-	margin-top: 1%;
-	margin-bottom: 1%;
+	max-height: 90px;
+	margin: 1% 0;
 }
+
 .image-appify {
+	max-height: 90px;
 	Order: 0;
 }
+
 .image-sunflower {
+	max-height: 90px;
 	Order: 3;
 }
+
 .image-bokeh {
+	max-height: 90px;
 	Order: 6;
 }
+
 .name-appify {
+	max-height: 90px;
 	Order: 1;
 }
+
 .name-sunflower {
+	max-height: 90px;
 	Order: 4;
 }
+
 .name-bokeh {
+	max-height: 90px;
 	Order: 7;
 }
+
 .link-appify {
+	margin: 2px 0;
 	width: 100%;
 	Order: 2;
 }
+
 .link-sunflower {
+	margin: 2px 0;
 	width: 100%;
 	Order: 5;
 }
+
 .link-bokeh {
+	margin: 2px 0;
 	width: 100%;
 	Order: 8;
 }
-.col-1{
+
+.col-1 {
 	width: 8.33%;
-
 }
 
-.col-2{
+.col-2 {
 	width: 16.66%;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.col-3{
+.col-3 {
 	width: 25%;
 }
 
-.col-4{
+.col-4 {
 	width: 33.33%;
 }
 
-.col-5{
+.col-5 {
 	width: 41.66%;
 }
 
-.col-6{
+.col-6 {
 	width: 50%;
 }
 
-.col-7{
+.col-7 {
 	width: 58.33%;
 }
 
-.col-8{
+.col-8 {
 	width: 66.66%;
 }
-.col-9{
+
+.col-9 {
 	width: 75%;
 }
 
-.col-10{
+.col-10 {
 	width: 83.33%;
 }
-.col-11{
+
+.col-11 {
 	width: 91.66%;
 }
 
-.col-12{
+.col-12 {
 	width: 100%;
 }
-
-

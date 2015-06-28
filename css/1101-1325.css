@@ -1,146 +1,153 @@
-* {
+body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-h1 {
-    text-align: right;
-    font-family: 'Lato', sans-serif; font-weight: 100;
-    font-size: 62px;
-    color: #666756;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-h2 {
-    text-align: right;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    font-size: 22px;
-    color: #666756;
-    margin-top: 0px;
-}
-h3 {
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    font-size: 36px;
-    color: #BCBBBB;
-    padding-left: 5px;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
-    text-align: center;
 
+h1 {
+	text-align: right;
+	font: 100 62px 'Lato', sans-serif;
+	color: #666756;
+	margin: 0;
 }
+
+h2 {
+	text-align: right;
+	font: 400 22px 'Lato', sans-serif;
+	color: #666756;
+	margin: 0;
+}
+
+h3 {
+	font: 400 36px 'Lato', sans-serif;
+	color: #bcbbbb;
+	padding: 0 0 0 5px;
+	margin: 0.5% 0;
+	text-align: center;
+}
+
 h4 {
 	text-align: center;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-    color: #666756;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 26px;
-    min-width: 33%;
+	font: 400 26px 'Lato', sans-serif;
+	color: #666756;
+	margin: 10px 0 5px 0;
+	min-width: 33%;
 }
+
 p {
 	text-align: center;
-    font-family: 'Lato', sans-serif; font-weight: 400;
-	font-size: 20px;
-    color: #666756;
-    margin-top: 5px;
-
+	font: 400 20px 'Lato', sans-serif;
+	color: #666756;
+	margin-top: 5px;
 }
+
 a {
 	text-decoration: none;
 	min-width: 33%;
 }
+
 img, embed, object, video {
 	max-width: 100%;
 	width:100%;
 	height:100%;
 }
-img:last-of-type { margin-right: 0;}
+
+img:last-of-type {
+	margin-right: 0;
+}
+
 nav a, button {
 	min-width: 48px;
 	min-height: 48px;
 }
+
 .line{
 	height: 4px;
-	background-color: #BCBBBB;
-	margin-top: 5px;
-	margin-bottom: 8px;
+	background-color: #bcbbbb;
+	margin: 5px 0 8px 0;
 }
+
 .no-margin-bottom{
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
+
 .no-margin-top{
-	margin-top: 0px;
+	margin-top: 0;
 }
+
 .logo{
-	padding-bottom: 0px;
-	padding-top: 0px;
+	padding: 0;
 	width: 15vmin;
 }
+
 .splash {
 	max-height: 285px;
-      min-width: 100%;
-  }
+	min-width: 100%;
+}
 
 .image-appify {
 	height: 200px;
-      margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 0;
-  }
+	margin-right: 10px;
+	width: calc((100% - 20px)/3);
+	Order: 0;
+}
 
 .image-sunflower {
 	height: 200px;
-      margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 1;
-  }
+	margin-right: 10px;
+	width: calc((100% - 20px)/3);
+	Order: 1;
+}
 
 .image-bokeh {
 	height: 200px;
-      width: calc((100% - 20px)/3);
-      Order: 2;
-  }
+	width: calc((100% - 20px)/3);
+	Order: 2;
+}
 
 .name-appify {
 	margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 3;
-  }
+	width: calc((100% - 20px)/3);
+	Order: 3;
+}
 
 .name-sunflower {
 	margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 4;
-  }
+	width: calc((100% - 20px)/3);
+	Order: 4;
+}
 
 .name-bokeh {
 	width: calc((100% - 20px)/3);
-      Order: 5;}
+	Order: 5;
+}
 
 .link-appify {
 	margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 6;
-  }
+	width: calc((100% - 20px)/3);
+	Order: 6;
+}
 
 .link-sunflower {
 	margin-right: 10px;
-      width: calc((100% - 20px)/3);
-      Order: 7;
-  }
+	width: calc((100% - 20px)/3);
+	Order: 7;
+}
 
 .link-bokeh {
 	width: calc((100% - 20px)/3);
-      Order: 8;
-  }
+	Order: 8;
+}
+
 .row{
 	width: 100%;
-	display: flex; flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 	max-width: 1250px;
-	margin-left: auto;
-    margin-right: auto;
+	margin: 0 auto;
 }
+
 .col-1{
 	width: 8.33%;
 }
@@ -172,6 +179,7 @@ nav a, button {
 .col-8{
 	width: 66.66%;
 }
+
 .col-9{
 	width: 75%;
 }
@@ -179,6 +187,7 @@ nav a, button {
 .col-10{
 	width: 83.33%;
 }
+
 .col-11{
 	width: 91.66%;
 }
