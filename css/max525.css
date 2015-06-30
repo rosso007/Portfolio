@@ -48,7 +48,10 @@ a {
 	text-decoration: none;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
 	max-width: 100%;
 }
 
@@ -56,7 +59,8 @@ img:last-of-type {
 	margin-right: 0;
 }
 
-nav a, button {
+nav a,
+button {
 	min-width: 48px;
 	min-height: 48px;
 }
